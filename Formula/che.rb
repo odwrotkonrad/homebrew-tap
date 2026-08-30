@@ -1,23 +1,23 @@
 class Che < Formula
   desc "Spec-driven dotfile configuration loader"
   homepage "https://gitlab.com/konradodwrot/go-modules"
-  version "0.0.115"
+  version "0.0.116"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://gitlab.com/api/v4/projects/84252099/packages/generic/che/0.0.115/che_0.0.115_darwin_arm64.tar.gz"
-      sha256 "e04fa8f97639e55c425f2643b11ba397a242aa1219f902bb8de0e90be3af48fe"
+      url "https://gitlab.com/api/v4/projects/84252099/packages/generic/che/0.0.116/che_0.0.116_darwin_arm64.tar.gz"
+      sha256 "128c7c7c933e5d87d71a3da80670c0e1724fb68f539d34045e742ba450491fb8"
     end
   end
   on_linux do
     on_arm do
-      url "https://gitlab.com/api/v4/projects/84252099/packages/generic/che/0.0.115/che_0.0.115_linux_arm64.tar.gz"
-      sha256 "4f530b2889990cbb2f3135b375d181e7addcf1c0393b3e7958ed58bde222990a"
+      url "https://gitlab.com/api/v4/projects/84252099/packages/generic/che/0.0.116/che_0.0.116_linux_arm64.tar.gz"
+      sha256 "0a827d99fc63d7a58fd33baa29d60ce4ad2c6877e41f3b8e6a5d044ad6927042"
     end
     on_intel do
-      url "https://gitlab.com/api/v4/projects/84252099/packages/generic/che/0.0.115/che_0.0.115_linux_amd64.tar.gz"
-      sha256 "ad86f4c448de44ca71c4db31c5227ca400e8669a88f135b86ed3be2dc6f36d0b"
+      url "https://gitlab.com/api/v4/projects/84252099/packages/generic/che/0.0.116/che_0.0.116_linux_amd64.tar.gz"
+      sha256 "a424beeb74d27d044ed0ac505c62699d15d2c83c1d78b734c4a097ae78d95064"
     end
   end
 
