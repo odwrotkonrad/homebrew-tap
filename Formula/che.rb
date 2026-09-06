@@ -1,23 +1,23 @@
 class Che < Formula
   desc "Spec-driven dotfile configuration loader"
   homepage "https://gitlab.com/konradodwrot/private/che/che"
-  version "0.0.132"
+  version "0.0.133"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://gitlab.com/api/v4/projects/86147432/packages/generic/che/0.0.132/che_0.0.132_darwin_arm64.tar.gz", headers: ["PRIVATE-TOKEN: #{ENV.fetch("HOMEBREW_GITLAB_TOKEN")}"]
-      sha256 "435363c454efb45c3cc992e392c5b260140e1107b5d43689c3d913e5c19bb7f0"
+      url "https://gitlab.com/api/v4/projects/86147432/packages/generic/che/0.0.133/che_0.0.133_darwin_arm64.tar.gz", headers: ["PRIVATE-TOKEN: #{ENV.fetch("HOMEBREW_GITLAB_TOKEN")}"]
+      sha256 "dccb1388105cda5ad3aaa1f786fd92722b617fe65203f6c65897b41228467d42"
     end
   end
   on_linux do
     on_arm do
-      url "https://gitlab.com/api/v4/projects/86147432/packages/generic/che/0.0.132/che_0.0.132_linux_arm64.tar.gz", headers: ["PRIVATE-TOKEN: #{ENV.fetch("HOMEBREW_GITLAB_TOKEN")}"]
-      sha256 "5f22082daf5d47d471b4ffe2c1502d7ee1e6e505dbc8a6d9730ec8a7e4c4a665"
+      url "https://gitlab.com/api/v4/projects/86147432/packages/generic/che/0.0.133/che_0.0.133_linux_arm64.tar.gz", headers: ["PRIVATE-TOKEN: #{ENV.fetch("HOMEBREW_GITLAB_TOKEN")}"]
+      sha256 "98e00aeb8f4cd8257ccf20fd167ae933f1ffafda4d1d8ea75d1ddaae1a02580b"
     end
     on_intel do
-      url "https://gitlab.com/api/v4/projects/86147432/packages/generic/che/0.0.132/che_0.0.132_linux_amd64.tar.gz", headers: ["PRIVATE-TOKEN: #{ENV.fetch("HOMEBREW_GITLAB_TOKEN")}"]
-      sha256 "1ad5652380018090615ac408e703cad848c9c277734e57fa7e3b7df1f582abd1"
+      url "https://gitlab.com/api/v4/projects/86147432/packages/generic/che/0.0.133/che_0.0.133_linux_amd64.tar.gz", headers: ["PRIVATE-TOKEN: #{ENV.fetch("HOMEBREW_GITLAB_TOKEN")}"]
+      sha256 "4ed999fa073bbede137f983ba18e82ebbae6a57eb09c9a67c3bd46a3d488bc46"
     end
   end
 
