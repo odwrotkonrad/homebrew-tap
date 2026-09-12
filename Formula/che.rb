@@ -1,6 +1,6 @@
 class Che < Formula
   desc "Spec-driven dotfile configuration loader"
-  homepage "https://gitlab.com/konradodwrot/private/che/che"
+  homepage "https://gitlab.com/konradodwrot/che/che"
   version "0.0.141"
   license "MIT"
 
