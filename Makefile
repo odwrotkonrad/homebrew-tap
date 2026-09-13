@@ -7,6 +7,8 @@ COMMANDS := che-install generic-setup
 
 .PHONY: $(COMMANDS)
 
+GENERIC_FILES_TRACKED_PROFILES := generic/filesTracked,artifactDocs
+
 -include .generated-untracked/generic/make/generic.mk
 
 ##[>] Setup [genai-include]

@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://gitlab.com/api/v4/projects/konradodwrot%2Fche%2Fche/packages/generic/che-schema/latest/che.schema.json
 ##[>] 🤖🤖
 specsInclude:
+  - .che/repo-git-tracked
   - url: gitlab.com/konradodwrot/centralized/assets/generic
     ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_ASSETS_GENERIC_REF }}"
     specDirPath: consumer-repo-config
