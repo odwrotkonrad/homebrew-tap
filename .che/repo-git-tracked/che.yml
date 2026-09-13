@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://gitlab.com/api/v4/projects/konradodwrot%2Fche%2Fche/packages/generic/che-schema/latest/che.schema.json
+##[>] 🤖🤖
+profilesDefinitions:
+  #[what] every non-repository artifact owns a LICENSE and a CONTRIBUTING.md under its own docs dir
+  artifactDocs:
+    type: repo-git-tracked
+    include:
+      makeCopies:
+        - source:
+            url: gitlab.com/konradodwrot/centralized/assets/prose/human
+            ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_ASSETS_PROSE_HUMAN_REF }}"
+            filepath: prose/shared/license/LICENSE
+          dest: docs/02-tool-che/LICENSE
+      renderTemplates:
+        - source:
+            url: gitlab.com/konradodwrot/centralized/assets/prose/human
+            ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_ASSETS_PROSE_HUMAN_REF }}"
+            filepath: templates/artifact-CONTRIBUTING.md.tpl
+          dest: docs/02-tool-che/CONTRIBUTING.md
+          variables:
+            repo: che/homebrew-tap
+            artifactSlug: 02-tool-che
+
+variablesDefinitions:
+  profilesVariablesDefinitions:
+    artifactDocs:
+      GIT_REPOSITORY_CENTRALIZED_ASSETS_PROSE_HUMAN_REF:
+        required: true
+##[<] 🤖🤖
