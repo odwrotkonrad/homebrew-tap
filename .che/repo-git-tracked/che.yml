@@ -9,7 +9,7 @@ profilesDefinitions:
         - source:
             url: gitlab.com/konradodwrot/centralized/assets/prose/human
             ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_ASSETS_PROSE_HUMAN_REF }}"
-            filepath: prose/shared/license/LICENSE
+            filepath: prose-human-authored/shared/license/LICENSE
           dest: docs/02-tool-che/LICENSE
       renderTemplates:
         - source:
