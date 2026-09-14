@@ -13,8 +13,6 @@ The homebrew tap serving che: `Formula/che.rb` plus one `Formula/che@<version>.r
 
 brew users install and pin che without any GitLab credential; the tap is the anonymous channel.
 
-#### Goals - che/homebrew-tap
-
 1. Installation without any GitLab account, in one brew command.
 2. A specific published version can be pinned.
 3. The tap is updated by the release itself, so a published release is installable immediately.
