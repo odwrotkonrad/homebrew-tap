@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://gitlab.com/api/v4/projects/konradodwrot%2Fche%2Fche/packages/generic/che-schema/latest/che.schema.json
+# yaml-language-server: $schema=https://gitlab.com/api/v4/projects/konradodwrot%2Fche%2Fche-source/packages/generic/che-schema/latest/che.schema.json
 ##[>] 🤖🤖
 profilesDefinitions:
   #[what] every non-repository artifact owns a LICENSE and a CONTRIBUTING.md under its own docs dir
@@ -18,7 +18,7 @@ profilesDefinitions:
             filepath: templates/artifact-CONTRIBUTING.md.tpl
           dest: docs/02-tool-che/CONTRIBUTING.md
           variables:
-            repo: che/homebrew-tap
+            repo: che/che-homebrew-tap
             artifactSlug: 02-tool-che
 
 variablesDefinitions:

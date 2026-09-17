@@ -14,7 +14,7 @@ MISC_FILES_TRACKED_PROFILES := misc/filesTracked,artifactDocs
 ##[>] Setup [genai-include]
 #[what] install the latest released che into ~/.local/bin, only when the one on PATH is older
 che-install:
-	@curl -fsSL https://konradodwrot.gitlab.io/che/che/che-install.sh | sh -s -- --skip-if-present-is-newer
+	@curl -fsSL https://konradodwrot.gitlab.io/che/che-source/che-install.sh | sh -s -- --skip-if-present-is-newer
 
 #[what] render the misc consumer payload (misc.mk, lefthook.yml, .generated-untracked/misc/) at the pinned CENTRALIZED_MISC_REF
 misc-setup:

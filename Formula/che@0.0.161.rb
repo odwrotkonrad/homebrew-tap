@@ -1,6 +1,6 @@
 class CheAT00161 < Formula
   desc "Spec-driven dotfile configuration loader"
-  homepage "https://gitlab.com/konradodwrot/che/che"
+  homepage "https://gitlab.com/konradodwrot/che/che-source"
   version "0.0.161"
   license "MIT"
 
