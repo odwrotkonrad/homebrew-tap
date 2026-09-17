@@ -7,7 +7,7 @@ COMMANDS := che-install misc-setup
 
 .PHONY: $(COMMANDS)
 
-GENERIC_FILES_TRACKED_PROFILES := misc/filesTracked,artifactDocs
+MISC_FILES_TRACKED_PROFILES := misc/filesTracked,artifactDocs
 
 -include .generated-untracked/misc/make/misc.mk
 
