@@ -7,7 +7,7 @@ All contributions of any kind are welcome: feature proposals, bug reports, direc
 
 ### Description - che/che-homebrew-tap
 
-A repository containing a Homebrew tap, which provides a resource for installing che through Homebrew.
+A repository containing a Homebrew tap that enables che to be installed through Homebrew.
 
 ### Purpose - che/che-homebrew-tap
 
