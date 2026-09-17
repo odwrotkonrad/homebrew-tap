@@ -7,14 +7,14 @@ profilesDefinitions:
     include:
       makeCopies:
         - source:
-            url: gitlab.com/konradodwrot/centralized/assets/natural-language-human
-            ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_ASSETS_NL_HUMAN_REF }}"
+            url: gitlab.com/konradodwrot/centralized/natural-language-human
+            ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_NL_HUMAN_REF }}"
             filepath: prose-human-authored/shared/license/LICENSE
           dest: docs/02-tool-che/LICENSE
       renderTemplates:
         - source:
-            url: gitlab.com/konradodwrot/centralized/assets/natural-language-human
-            ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_ASSETS_NL_HUMAN_REF }}"
+            url: gitlab.com/konradodwrot/centralized/natural-language-human
+            ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_NL_HUMAN_REF }}"
             filepath: templates/artifact-CONTRIBUTING.md.tpl
           dest: docs/02-tool-che/CONTRIBUTING.md
           variables:
@@ -24,6 +24,6 @@ profilesDefinitions:
 variablesDefinitions:
   profilesVariablesDefinitions:
     artifactDocs:
-      GIT_REPOSITORY_CENTRALIZED_ASSETS_NL_HUMAN_REF:
+      GIT_REPOSITORY_CENTRALIZED_NL_HUMAN_REF:
         required: true
 ##[<] 🤖🤖

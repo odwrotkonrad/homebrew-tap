@@ -16,7 +16,7 @@ MISC_FILES_TRACKED_PROFILES := misc/filesTracked,artifactDocs
 che-install:
 	@curl -fsSL https://konradodwrot.gitlab.io/che/che/che-install.sh | sh -s -- --skip-if-present-is-newer
 
-#[what] render the misc consumer payload (misc.mk, lefthook.yml, .generated-untracked/misc/) at the pinned CENTRALIZED_ASSETS_MISC_REF
+#[what] render the misc consumer payload (misc.mk, lefthook.yml, .generated-untracked/misc/) at the pinned CENTRALIZED_MISC_REF
 misc-setup:
 	@$${BIN_CHE:-che} render-templates --profiles=misc/setup
 
