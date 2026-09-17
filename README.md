@@ -3,21 +3,19 @@
 
 All contributions of any kind are welcome: feature proposals, bug reports, direct code contributions, and design discussions. For guidance, see [contributing](CONTRIBUTING.md).
 
-## Repository - che/homebrew-tap
+## Repository - che/che-homebrew-tap
 
-### Description - che/homebrew-tap
+### Description - che/che-homebrew-tap
 
-The homebrew tap serving che: `Formula/che.rb` plus one `Formula/che@<version>.rb` per release, committed by che's release job via the GitLab commits API.
+A repository containing a Homebrew tap, which provides a resource for installing che through Homebrew.
 
-### Purpose - che/homebrew-tap
+### Purpose - che/che-homebrew-tap
 
-brew users install and pin che without any GitLab credential; the tap is the anonymous channel.
+#### Goals
 
-1. Installation without any GitLab account, in one brew command.
-2. A specific published version can be pinned.
-3. The tap is updated by the release itself, so a published release is installable immediately.
+- Contributes to the goal of enabling che to be installed through Homebrew.
 
-### More Information - che/homebrew-tap
+### More Information - che/che-homebrew-tap
 
 Contributing and developer notes: [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -42,7 +40,7 @@ che's other channels sit behind GitLab. This tap is the anonymous one: brew user
 The tap lives on GitLab, so give `brew tap` the repository URL:
 
 ```sh
-$ brew tap konradodwrot/che https://gitlab.com/konradodwrot/che/homebrew-tap.git
+$ brew tap konradodwrot/che https://gitlab.com/konradodwrot/che/che-homebrew-tap.git
 $ brew install che
 ```
 

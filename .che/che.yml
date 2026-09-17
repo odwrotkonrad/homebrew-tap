@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://gitlab.com/api/v4/projects/konradodwrot%2Fche%2Fche/packages/generic/che-schema/latest/che.schema.json
+# yaml-language-server: $schema=https://gitlab.com/api/v4/projects/konradodwrot%2Fche%2Fche-source/packages/generic/che-schema/latest/che.schema.json
 ##[>] 🤖🤖
 specsInclude:
   - .che/repo-git-tracked
@@ -6,8 +6,8 @@ specsInclude:
     ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_MISC_REF }}"
     specDirPath: consumer-repo-config
     variables:
-      repo: che/homebrew-tap
-      repoTree: group-konradodwrot/group-che/repo-homebrew-tap
+      repo: che/che-homebrew-tap
+      repoTree: group-konradodwrot/group-che/repo-che-homebrew-tap
 
 variablesDefinitions:
   all:
