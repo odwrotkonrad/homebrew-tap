@@ -2,8 +2,8 @@
 ##[>] 🤖🤖
 specsInclude:
   - .che/repo-git-tracked
-  - url: gitlab.com/konradodwrot/centralized/assets/misc
-    ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_ASSETS_MISC_REF }}"
+  - url: gitlab.com/konradodwrot/centralized/misc
+    ref: "${{ var.GIT_REPOSITORY_CENTRALIZED_MISC_REF }}"
     specDirPath: consumer-repo-config
     variables:
       repo: che/homebrew-tap
@@ -14,8 +14,8 @@ variablesDefinitions:
     scope: recursiveSpecsAndProfiles
     required: true
   specVariablesDefinitions:
-    GIT_REPOSITORY_CENTRALIZED_ASSETS_MISC_REF: null
+    GIT_REPOSITORY_CENTRALIZED_MISC_REF: null
     GIT_REPOSITORY_AI_HARNESS_NL_AI_REF: null
-    GIT_REPOSITORY_CENTRALIZED_ASSETS_NL_HUMAN_REF: null
+    GIT_REPOSITORY_CENTRALIZED_NL_HUMAN_REF: null
     FILE_CHE_SCHEMA_REF: null
 ##[<] 🤖🤖
